@@ -6,7 +6,7 @@ path: '/third-post'
 image: '../../images/styling.jpg'
 tags:
 - design
-- tutorial
+- tutorial 
 ---
 
 Now let's talk about styling your HTML using CSS.

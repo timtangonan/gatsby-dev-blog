@@ -6,7 +6,7 @@ path: '/second-post'
 image: '../../images/stylesheet.jpg'
 tags:
 - code
-- web design
+- design
 ---
 
 Let's talk about HTML.

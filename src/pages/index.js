@@ -5,6 +5,7 @@ import { Row, Col } from "reactstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Post from "../components/Post"
+import Sidebar from "../components/Sidebar"
 
 const IndexPage = () => (
   <Layout>
@@ -30,7 +31,7 @@ const IndexPage = () => (
         }}/>
       </Col>
       <Col md="4">
-        <div style={{ height: '100%', width: '100%', backgroundColor: 'snow'}}></div>
+        <Sidebar />
       </Col>
     </Row>
   </Layout>
