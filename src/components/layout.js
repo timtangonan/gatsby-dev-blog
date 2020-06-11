@@ -26,14 +26,16 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossOrigin="anonymous"/>
-      <div className="container" id="content">
-        <main>{children}</main>
+    <div style={{display: `flex`, flexDirection: `column`, minHeight: `100vh`}}>
+      <div style={{flexGrow: `1`}}>
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossOrigin="anonymous"/>
+        <div className="container" id="content">
+          <main>{children}</main>
+        </div>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 
