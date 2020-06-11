@@ -4,6 +4,9 @@ date: 2020-03-02 07:00:00
 author: 'Renfred Tangonan'
 path: '/second-post'
 image: '../../images/stylesheet.jpg'
+tags:
+- code
+- web design
 ---
 
 Let's talk about HTML.
