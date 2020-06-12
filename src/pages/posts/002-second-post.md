@@ -1,5 +1,5 @@
 ---
-title: 'Second Post - HTML'
+title: 'HTML - The Building Blocks'
 date: 2020-03-02 07:00:00
 author: 'Renfred Tangonan'
 image: '../../images/stylesheet.jpg'

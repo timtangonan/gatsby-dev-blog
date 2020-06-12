@@ -1,5 +1,5 @@
 ---
-title: 'First Post - Introduction'
+title: 'An Introduction'
 date: 2020-02-28 07:00:00
 author: 'Tim Tangonan'
 image: '../../images/webdev.jpg'

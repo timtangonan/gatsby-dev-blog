@@ -32,13 +32,13 @@ const Sidebar = () => {
                     <CardTitle className="text-center text-uppercase mb-3">Recent Posts</CardTitle>
                 </CardBody>
                 <StaticQuery query={sidebarQuery} render={(data) => (
-                    <div>
+                    <div style={{marginRight: '1em', marginLeft: '1em'}}>
                         {data.allMarkdownRemark.edges.map(({node}) =>
                             <Card key={node.id}>
-                                <Link to={node.frontmatter.slug}>
-                                    <Img className="card-image-top" fluid={node.frontmatter.image.childImageSharp.fluid}/>
-                                </Link>
                                 <CardBody>
+                                    <Link to={node.frontmatter.slug}>
+                                        <Img className="card-image-top" fluid={node.frontmatter.image.childImageSharp.fluid}/>
+                                    </Link>
                                     <CardTitle>
                                         <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
                                     </CardTitle>
