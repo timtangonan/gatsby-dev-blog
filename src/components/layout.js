@@ -8,13 +8,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Row, Col } from "reactstrap"
 
 import Header from "./header"
 import Footer from "./Footer"
+import Sidebar from "./Sidebar"
 
 import '../styles/index.scss'
 
-const Layout = ({ children }) => {
+const Layout = ({ children, pageTitle }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -31,7 +33,11 @@ const Layout = ({ children }) => {
         <Header siteTitle={data.site.siteMetadata.title} />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossOrigin="anonymous"/>
         <div className="container" id="content">
-          <main>{children}</main>
+          <h1>{pageTitle}</h1>
+          <Row>
+            <Col md="8">{children}</Col>
+            <Col md="4"><Sidebar /></Col>
+          </Row>
         </div>
       </div>
       <Footer />
