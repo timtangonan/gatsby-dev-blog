@@ -36,7 +36,7 @@ const Sidebar = () => {
                         {data.allMarkdownRemark.edges.map(({node}) =>
                             <Card key={node.id}>
                                 <CardBody>
-                                    <Link to={node.frontmatter.slug}>
+                                    <Link to={node.fields.slug}>
                                         <Img className="card-image-top" fluid={node.frontmatter.image.childImageSharp.fluid}/>
                                     </Link>
                                     <CardTitle>
