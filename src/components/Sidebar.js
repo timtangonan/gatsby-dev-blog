@@ -8,7 +8,7 @@ const Sidebar = ({ author, authorFluid }) => {
         <div>
             {author && (
                 <Card>
-                    <Img className="card-image-top" fluid={authorFluid} />
+                    <Img className="card-image-top" fluid={authorFluid} style={{margin: '4em 4em 0'}}/>
                     <CardBody>
                         <CardTitle className="text-center text-uppercase mb-3">{author.name}</CardTitle>
                         <CardText>
@@ -16,8 +16,8 @@ const Sidebar = ({ author, authorFluid }) => {
                         </CardText>
                         <div className="author-social-links text-center">
                             <ul>
-                                <li><a href={author.github} target="_blank" rel="noopener noreferrer" className="github"><i class="fab fa-github-square fa-lg"></i></a></li>
-                                <li><a href={author.twitter} target="_blank" rel="noopener noreferrer" className="twitter"><i class="fab fa-twitter-square fa-lg"></i></a></li>
+                                <li><a href={author.github} target="_blank" rel="noopener noreferrer" className="github" aria-label="github"><i class="fab fa-github-square fa-lg"></i></a></li>
+                                <li><a href={author.twitter} target="_blank" rel="noopener noreferrer" className="twitter" aria-label="twitter"><i class="fab fa-twitter-square fa-lg"></i></a></li>
                             </ul>
                         </div>
                     </CardBody>
