@@ -13,13 +13,13 @@ const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/timtangonan" target="_blank" rel="noopener noreferrer" className="twitter">
-                            <i class="fab fa-twitter-square fa-2x"></i>
+                        <a href="https://codepen.io/timtangonan" target="_blank" rel="noopener noreferrer" className="codepen">
+                        <i class="fab fa-codepen fa-2x"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://codepen.io/timtangonan" target="_blank" rel="noopener noreferrer" className="codepen">
-                        <i class="fab fa-codepen fa-2x"></i>
+                        <a href="https://twitter.com/timtangonan" target="_blank" rel="noopener noreferrer" className="twitter">
+                            <i class="fab fa-twitter-square fa-2x"></i>
                         </a>
                     </li>
                 </ul>
