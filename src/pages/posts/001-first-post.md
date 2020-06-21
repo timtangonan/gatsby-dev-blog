@@ -7,8 +7,12 @@ tags:
 - code
 ---
 
-Welcome to Gatsby Dev Blog. We post articles pertaining to GatsbyJS and other JAMstacky things.
+Welcome to Gatsby Dev Blog. We post articles pertaining to GatsbyJS and other "JAMstacky" things.
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Our framework of choice is Gatsby but we have absolutely no aversion to using other amazing static site generators and meta-frameworks. Some other frameworks we use on other projects are Gatsby, GatsbyJS, Gatsby.js, and Gatsby.JS.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+Kidding!
+
+We use the sleek 11ty, as well as the full-stack JAMstack newcomer RedwoodJS.
+
+Please visit from time to time as we write up articles that might help you in your journey in specializing in the JAMstack.
